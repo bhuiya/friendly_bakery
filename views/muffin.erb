@@ -1,0 +1,91 @@
+
+<div id="item_header" class="uk-animation-fast uk-animation-fade"> Muffins </div>
+  <div class="row">
+    <div class="column">
+        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+          <div class="mainflip">
+            <div class="frontside">
+              <div class="card" style="width:25rem; height:30rem"; >
+                <img class="card-img-top img- fluid" src="/img/muffins/banana_muffin.jpeg" alt="card image">
+                <div class="card-body">
+                  <h4 class="card-title"><%= @banana_muffin.name %></h4>
+                  <p class="card-text"><%= @banana_muffin.description %></p>
+                </div>
+              </div>
+            </div>
+            <div class="backside">
+              <div class="card" style="width:25rem; height:30rem;">
+                <div class="card-header">
+                  <h4 class="card-title">         <%= @banana_muffin.price %> </h4>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title"><%= @banana_muffin.name %></h4>
+                  <p class="card-text"><%= @banana_muffin.description %></p>
+                </div>
+                <div class="card-footer">
+
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  <div class="column">
+    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+      <div class="mainflip">
+        <div class="frontside">
+          <div class="card" style="width:25rem; height:30rem;">
+            <img class="card-img-top img- fluid" src="/img/muffins/drak_choklate_muffin.jpg" alt="card image">
+            <div class="card-body">
+              <h4 class="card-title"><%=   @chocolate_muffin.name %></h4>
+              <p class="card-text"><%=   @chocolate_muffin.description %></p>
+            </div>
+          </div>
+        </div>
+        <div class="backside">
+          <div class="card" style="width:25rem; height:30rem;">
+            <div class="card-header">
+              <h4 class="card-title">         <%= @chocolate_muffin.price %> </h4>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title"><%= @chocolate_muffin.name %></h4>
+              <p class="card-text"><%= @chocolate_muffin.description %></p>
+            </div>
+            <div class="card-footer">
+
+           </div>
+         </div>
+       </div>
+      </div>
+   </div>
+  </div>
+  <div class="column">
+    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+      <div class="mainflip">
+        <div class="frontside">
+          <div class="card" style="width:25rem; height:30rem;">
+            <img class="card-img-top img- fluid" src="/img/muffins/strawberry_muffin.jpg" alt="card image">
+           <div class="card-body">
+             <h4 class="card-title"><%= @strawberry_muffin.name %></h4>
+             <p class="card-text"><%= @strawberry_muffin.description %></p>
+           </div>
+         </div>
+       </div>
+       <div class="backside">
+          <div class="card" style="width:25rem; height:30rem;">
+            <div class="card-header">
+              <h4 class="card-title">         <%= @strawberry_muffin.price %> </h4>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title"><%= @strawberry_muffin.name %></h4>
+              <p class="card-text"><%= @strawberry_muffin.description %></p>
+            </div>
+            <div class="card-footer">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
