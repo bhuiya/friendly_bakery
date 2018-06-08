@@ -2,6 +2,8 @@ require 'sinatra'
 require './class'
 require 'mailgun'
 
+# why is this indented??????
+
     get ('/') do
       erb :index
     end
@@ -14,12 +16,15 @@ require 'mailgun'
           @chocolate_muffin= Muffin.new('Dark Chocolate Muffins', 'This crowd-pleasing recipe is chocolately but not too sweet making these muffins perfect for breakfast or any other time of day', '$3,99')
           @strawberry_muffin= Muffin.new('Strawberry Shortcake Muffins','All the flavor and richness of strawberry shortcake in muffin form', '$2,99' )
 
+          # should put all these instances in an array and loop through the array in the view.
           erb :muffin
     end
     get ('/cakes') do
         @strawberry_cake= Cakes.new('Strawberry Cake', 'Description: 1 kg cake is made with a moist vanilla sponge that has been filled with vanilla cream and fresh strawberries', '$150,00')
         @vanilla_cake= Cakes.new('Vanilla Cake', 'This cake is something special, living up to its ethereal name, with a serious punch of vanilla flavor', '$200,00')
         @chocolate_cake= Cakes.new('Chocolate Cake','All the flavor and richness of strawberry shortcake in muffin form', '$100,00' )
+        
+        # should put all these instances in an array and loop through the array in the view.
         erb :cakes
      end
 
@@ -28,8 +33,9 @@ require 'mailgun'
         @peanut_butter= Cookies.new('Peanut Butter Cookies', ' These soft and chewy peanut buttery cookies are the best!', '$6,99')
         @oatmeal_raisin= Cookies.new('Oatmeal Raisin Cookies', 'These are the best oatmeal cookies. The secret is in the soaking of the raisins', '$4,99')
         @chocolate_brownies= Cookies.new('Chocolate Brownies','This brownie recipe strikes a perfect balance between fudge-style and cakey brownies, and also produces a wonderful crust', '$4,99' )
+        
+        # should put all these instances in an array and loop through the array in the view.
         erb :cookies
-
       end
 
       get ('/sign_up') do
