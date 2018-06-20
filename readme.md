@@ -3,11 +3,17 @@
 ## Goal
 To create a fullstack bakery website that displays information on cookies, cakes and muffins offered for sale as well as enables someone to receive a catalog of items sold via email.
 
+### Heroku Deployment
+<https://https://badrubakery.herokuapp.com//>
+
+
 ## Built With:
 * Ruby Sinatra
 * External API
 * HTML5
 * Sass
+* Bootstrap
+* Deploying to Heroku
 
 ## Features
 * Responsive design
@@ -15,10 +21,6 @@ To create a fullstack bakery website that displays information on cookies, cakes
 * Utilizes Mailgun API to send email to user
 * Sends an eye-chatching, stylized email to users who sign up
 
-## Email Sample Screenshot
-A screenshot of the beginning of the email sent to those who subsribe.
-![email screenshot](/public/img/email.png "email image part 1")
-![email screenshot](/public/img/email2.png "email image part 2")
 
 ### Learning Objectives:  
 
