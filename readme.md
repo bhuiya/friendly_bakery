@@ -4,7 +4,7 @@
 To create a fullstack bakery website that displays information on cookies, cakes and muffins offered for sale as well as enables someone to receive a catalog of items sold via email.
 
 ### Heroku Deployment
-<https://https://badrubakery.herokuapp.com//>
+<https://badrubakery.herokuapp.com//>
 
 
 ## Built With:
